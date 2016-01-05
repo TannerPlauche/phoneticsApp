@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Phonetica">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body ng-controller="MainController">
+
+  <div ng-include="'partials/blocks/navbar.html'"></div>
+
+  <!--
+<div>
+  <img src="{{testTarget}}" alt="Image not found">
+  <p>{{testSymbol}}</p>
+</div>
+-->
+
+  <div ng-view></div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+  <script src="main.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/services/quizMaterialService.js"></script>
+  <script src="js/controllers/tongueTargetQuizController.js"></script>
+  <script src="authentication/authentication.js"></script>
+  <script src="authentication/login.js"></script>
+  <script src="authentication/signup.js"></script>
+</body>
+
+</html>
