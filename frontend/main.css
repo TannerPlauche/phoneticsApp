@@ -1,244 +1,251 @@
 body {
-  background-color: #787E8F;
-  background: "fənɛˈtɪkə";
-  color: white;
-  background-repeat: repeat;
+    background-color: #787E8F;
+    background: "fənɛˈtɪkə";
+    color: white;
+    background-repeat: repeat;
 }
 
 .quizTarget {
-  max-height: 200px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+    max-height: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .navbar-default {
-  background-color: #A2C60D;
-  border-radius: 5px;
-  color: #C66A1A;
+    background-color: #A2C60D;
+    border-radius: 5px;
+    color: #C66A1A;
 }
 
 .navbar-default .navbar-brand {
-  color: #C66A1A;
+    color: #C66A1A;
 }
 
-.navbar-default .navbar-nav>li>a {
-  color: #C66A1A;
+.navbar-default .navbar-nav > li > a {
+    color: #C66A1A;
 }
-
 
 /*//////////circle buttons//////////*/
 
 .buttonDiv {
-  text-align: center;
+    text-align: center;
 }
 
 .orange-circle-button {
-  box-shadow: 2px 4px 0 2px rgba(0, 0, 0, 0.1);
-  border: .5em solid #C66A1A;
-  font-size: 2em;
-  line-height: 1.1em;
-  color: #787e8f;
-  background-color: #C66A1A;
-  margin: auto;
-  border-radius: 50%;
-  height: 10em;
-  width: 10em;
-  position: relative;
-  margin-top: 50px;
+    box-shadow: 2px 4px 0 2px rgba(0, 0, 0, 0.1);
+    border: .5em solid #C66A1A;
+    font-size: 2em;
+    line-height: 1.1em;
+    color: #787e8f;
+    background-color: #C66A1A;
+    margin: auto;
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    position: relative;
+    margin-top: 50px;
 }
 
 .orange-circle-button:hover {
-  color: white;
-  background-color: #C66A1A;
-  text-decoration: none;
-  border-color: #A2C60D;
+    color: white;
+    background-color: #C66A1A;
+    text-decoration: none;
+    border-color: #A2C60D;
 }
 
 .orange-circle-button:visited {
-  color: #787E8F;
-  background-color: #e84d0e;
-  text-decoration: none;
+    color: #787E8F;
+    background-color: #e84d0e;
+    text-decoration: none;
 }
 
 .orange-circle-link-greater-than {
-  font-size: 1em;
+    font-size: 1em;
 }
-
 
 /*///////////////////*/
 
 .teal-circle-button {
-  text-align: center;
-  box-shadow: 2px 4px 0 2px rgba(0, 0, 0, 0.1);
-  border: .5em solid #09C6BD;
-  font-size: 2em;
-  line-height: 1.1em;
-  color: #787E8F;
-  background-color: #09C6BD;
-  margin: auto;
-  border-radius: 50%;
-  height: 10em;
-  width: 10em;
-  position: relative;
-  margin-top: 50px;
+    text-align: center;
+    box-shadow: 2px 4px 0 2px rgba(0, 0, 0, 0.1);
+    border: .5em solid #09C6BD;
+    font-size: 2em;
+    line-height: 1.1em;
+    color: #787E8F;
+    background-color: #09C6BD;
+    margin: auto;
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    position: relative;
+    margin-top: 50px;
 }
 
 .teal-circle-button:hover {
-  color: white;
-  background-color: #09C6BD;
-  text-decoration: none;
-  border-color: #C66A1A;
+    color: white;
+    background-color: #09C6BD;
+    text-decoration: none;
+    border-color: #C66A1A;
 }
 
 .teal-circle-button:visited {
-  color: #787E8F;
-  background-color: #09C6BD;
-  text-decoration: none;
+    color: #787E8F;
+    background-color: #09C6BD;
+    text-decoration: none;
 }
 
 .teal-circle-link-greater-than {
-  font-size: 1em;
+    font-size: 1em;
 }
-
 
 /*///////////////////*/
 
 .green-circle-button {
-  box-shadow: 2px 4px 0 2px rgba(0, 0, 0, 0.1);
-  border: .5em solid #82CD96;
-  font-size: 2em;
-  line-height: 1.1em;
-  color: #787E8F;
-  background-color: #82CD96;
-  margin: auto;
-  border-radius: 50%;
-  height: 10em;
-  width: 10em;
-  position: relative;
-  margin-top: 50px;
+    box-shadow: 2px 4px 0 2px rgba(0, 0, 0, 0.1);
+    border: .5em solid #82CD96;
+    font-size: 2em;
+    line-height: 1.1em;
+    color: #787E8F;
+    background-color: #82CD96;
+    margin: auto;
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    position: relative;
+    margin-top: 50px;
 }
 
 .green-circle-button:hover {
-  color: white;
-  background-color: #82CD96;
-  text-decoration: none;
-  border-color: #09C6BD;
+    color: white;
+    background-color: #82CD96;
+    text-decoration: none;
+    border-color: #09C6BD;
 }
 
 .green-circle-button:visited {
-  color: #787E8F;
-  background-color: #82CD96;
-  text-decoration: none;
+    color: #787E8F;
+    background-color: #82CD96;
+    text-decoration: none;
 }
 
 .green-circle-link-greater-than {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 .peaGreen-circle-button {
-  box-shadow: 2px 4px 0 2px rgba(0, 0, 0, 0.1);
-  border: .5em solid #A2C60D;
-  font-size: 2em;
-  line-height: 1.1em;
-  color: #787E8F;
-  background-color: #A2C60D;
-  margin: auto;
-  border-radius: 50%;
-  height: 10em;
-  width: 10em;
-  position: relative;
-  margin-top: 50px;
+    box-shadow: 2px 4px 0 2px rgba(0, 0, 0, 0.1);
+    border: .5em solid #A2C60D;
+    font-size: 2em;
+    line-height: 1.1em;
+    color: #787E8F;
+    background-color: #A2C60D;
+    margin: auto;
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    position: relative;
+    margin-top: 50px;
 }
 
 .peaGreen-circle-button:hover {
-  color: white;
-  background-color: #A2C60D;
-  text-decoration: none;
-  border-color: #82CD96;
+    color: white;
+    background-color: #A2C60D;
+    text-decoration: none;
+    border-color: #82CD96;
 }
 
 .peaGreen-circle-button:visited {
-  color: #787E8F;
-  background-color: #82CD96;
-  text-decoration: none;
+    color: #787E8F;
+    background-color: #82CD96;
+    text-decoration: none;
 }
 
 .peaGreen-circle-link-greater-than {
-  font-size: 1em;
+    font-size: 1em;
 }
-
 
 /*////////////////This applies to the buttons on the quiz mainpage*/
 
 .plusSquare {
-  border-radius: 0%;
-  height: 5em;
-  width: 15em;
+    border-radius: 0%;
+    height: 5em;
+    width: 15em;
 }
-
 
 /*/////////////////*/
 
 .progress-bar {
-  background-color: #09C6BD;
+    background-color: #09C6BD;
 }
 
 .btn {
-  background-color: #09C6BD;
-  color: #C66A1A;
-  font-weight: bold;
-  font-size: 2em;
-  margin-top: 10px;
+    background-color: #09C6BD;
+    color: #C66A1A;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .correctCounter {
-  text-align: center;
-  background-color: #A2C60D;
-  color: #C66A1A;
+    text-align: center;
+    background-color: #A2C60D;
+    color: #C66A1A;
 }
 
 .incorrectCounter {
-  text-align: center;
-  background-color: #C66A1A;
-  color: #A2C60D;
+    text-align: center;
+    background-color: #C66A1A;
+    color: #A2C60D;
 }
 
 .tongueTargetImage {
-  text-align: center;
+    text-align: center;
 }
 
-.quizAnswerButton {}
+.quizAnswerButton {
+}
 
 .textbox1 {
-  background-color: #82CD96;
-  color: #C66A1A;
-  border: solid #09C6BD 5px;
-  border-radius: 5px;
-  border-left: 1px;
-  border-top: 1px;
-  border-right: 1px;
+    background-color: #82CD96;
+    color: #C66A1A;
+    border: solid #09C6BD 5px;
+    border-radius: 5px;
+    border-left: 1px;
+    border-top: 1px;
+    border-right: 1px;
 }
 
 .textbox2 {
-  background-color: #09C6BD;
-  color: #C66A1A;
-  border: solid #A2C60D 5px;
-  border-radius: 5px;
-  border-left: 1px;
-  border-top: 1px;
-  border-right: 1px;
+    background-color: #09C6BD;
+    color: #C66A1A;
+    border: solid #A2C60D 5px;
+    border-radius: 5px;
+    border-left: 1px;
+    border-top: 1px;
+    border-right: 1px;
 }
 
 .textbox3 {
-  background-color: #C66A1A;
-  color: #A2C60D;
-  border: solid #A2C60D 5px;
-  border-radius: 5px;
-  border-left: 1px;
-  border-top: 1px;
-  border-right: 1px;
+    background-color: #C66A1A;
+    color: #A2C60D;
+    border: solid #A2C60D 5px;
+    border-radius: 5px;
+    border-left: 1px;
+    border-top: 1px;
+    border-right: 1px;
+}
+
+#tongueTargetContainer {
+    background-color: darkslategray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#tongueTargetImage {
+    background-color: white;
+    border-radius: 20px;
 }

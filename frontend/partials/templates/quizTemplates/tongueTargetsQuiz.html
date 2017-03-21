@@ -1,11 +1,11 @@
-<div class="container">
+<div class="container" id="tongueTargetContainer" style="">
   <div class="row">
     <div class="col-xs-6 col-xs-offset-3 center">
       <div ng-hide="quizIsStarted">
 
         <h1 class="textbox2">Welcome to the tongue targets quiz!</h1>
       </div>
-
+      <h4 class="text-center"> Select the IPA symbol that matches the tongue target.  MORE</h4>
       <div ng-hide="quizIsStarted">
         <button class="btn " ng-click="startQuiz()">Start</button>
       </div>
@@ -27,12 +27,12 @@
 
 
         <br>
-        <div class="tongueTargetImage">
+        <div id="tongueTargetImage">
           <img class="quizTarget" src="{{currentTarget}}" alt="">
         </div>
 
 
-        <div>
+        <div onclick="console.log('clickity')" >
           <button class="btn col-xs-12 col-sm-3 col-sm-offset-1" ng-click="incrementQuiz(option1)">{{option1}}</button>
           <button class="btn col-xs-12 col-sm-3 col-sm-offset-1" ng-click="incrementQuiz(option2)">{{option2}}</button>
           <button class="btn col-xs-12 col-sm-3 col-sm-offset-1" ng-click="incrementQuiz(option3)">{{option3}}</button>
